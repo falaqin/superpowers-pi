@@ -248,7 +248,7 @@ export default function (pi: ExtensionAPI) {
       message: {
         customType: "superpowers-bootstrap",
         content: bootstrapMessage,
-        display: true,
+        display: false,
       },
     };
   });

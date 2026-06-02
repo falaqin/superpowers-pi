@@ -12,10 +12,10 @@ echo ""
 echo "Skills:"
 mkdir -p "$PI_SKILLS"
 for skill_dir in "$REPO_DIR/skills/"*; do
-  [ -d "$skill_dir" ] || continue
-  name=$(basename "$skill_dir")
-  ln -sfn "$skill_dir" "$PI_SKILLS/$name"
-  echo "  ✓ $name"
+	[ -d "$skill_dir" ] || continue
+	name=$(basename "$skill_dir")
+	ln -sfn "$skill_dir" "$PI_SKILLS/$name"
+	echo "  ✓ $name"
 done
 
 echo ""
@@ -24,7 +24,7 @@ echo ""
 echo "Extension:"
 mkdir -p "$PI_EXTS"
 ln -sfn "$REPO_DIR/extensions/superpowers-bootstrap.ts" \
-  "$PI_EXTS/superpowers-bootstrap.ts"
+	"$PI_EXTS/superpowers-bootstrap.ts"
 echo "  ✓ superpowers-bootstrap"
 
 echo ""
