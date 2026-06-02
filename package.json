@@ -1,9 +1,14 @@
 {
   "name": "@falaqin/superpowers-pi",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "description": "Complete software development methodology for Pi — TDD, debugging, collaboration, and proven workflows",
   "type": "module",
-  "keywords": ["pi-package", "superpowers", "tdd", "skills"],
+  "keywords": [
+    "pi-package",
+    "superpowers",
+    "tdd",
+    "skills"
+  ],
   "license": "MIT",
   "author": {
     "name": "Falaqin",
@@ -21,7 +26,11 @@
     "setup.sh"
   ],
   "pi": {
-    "extensions": ["./extensions"],
-    "skills": ["./skills"]
+    "extensions": [
+      "./extensions"
+    ],
+    "skills": [
+      "./skills"
+    ]
   }
 }
