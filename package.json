@@ -1,6 +1,6 @@
 {
   "name": "@falaqin/superpowers-pi",
-  "version": "5.1.2",
+  "version": "5.1.3",
   "description": "Complete software development methodology for Pi — TDD, debugging, collaboration, and proven workflows",
   "type": "module",
   "keywords": [
