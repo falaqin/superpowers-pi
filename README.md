@@ -153,16 +153,21 @@ already use it in another harness.
 
 ### Pi
 
-Install the package with a single command:
+**Recommended — install from npm (lightweight, no git history):**
+
+```bash
+pi install npm:@falaqin/superpowers-pi
+```
+
+This downloads only the runtime files (skills + extension) without cloning the full repo.
+
+**Alternative — install from GitHub:**
 
 ```bash
 pi install git:github.com/falaqin/superpowers-pi
 ```
 
-This installs all Superpowers skills and the `superpowers-bootstrap` extension that
-registers missing tools and loads the Superpowers workflow at session start.
-
-Or install manually by cloning and running the setup script:
+**Manual setup** — clone and symlink:
 
 ```bash
 git clone https://github.com/falaqin/superpowers-pi
@@ -170,7 +175,7 @@ cd superpowers-pi
 ./setup.sh
 ```
 
-Restart Pi or run `/reload` after installation.
+After any install method, restart Pi or run `/reload` to activate.
 
 ## The Basic Workflow
 
