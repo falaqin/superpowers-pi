@@ -23,7 +23,7 @@ echo ""
 # Symlink extension
 echo "Extension:"
 mkdir -p "$PI_EXTS"
-ln -sfn "$REPO_DIR/.pi/extensions/superpowers-bootstrap.ts" \
+ln -sfn "$REPO_DIR/extensions/superpowers-bootstrap.ts" \
   "$PI_EXTS/superpowers-bootstrap.ts"
 echo "  ✓ superpowers-bootstrap"
 

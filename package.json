@@ -5,7 +5,7 @@
   "main": ".opencode/plugins/superpowers.js",
   "keywords": ["pi-package"],
   "pi": {
-    "extensions": [".pi/extensions"],
+    "extensions": ["./extensions"],
     "skills": ["./skills"]
   }
 }
