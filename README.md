@@ -4,7 +4,7 @@ Superpowers is a complete software development methodology for your coding agent
 
 ## Quickstart
 
-Give your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).
+Give your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli), [Pi](#pi).
 
 ## How it works
 
@@ -150,6 +150,27 @@ already use it in another harness.
   ```bash
   copilot plugin install superpowers@superpowers-marketplace
   ```
+
+### Pi
+
+Install the package with a single command:
+
+```bash
+pi install git:github.com/falaqin/superpowers-pi
+```
+
+This installs all Superpowers skills and the `superpowers-bootstrap` extension that
+registers missing tools and loads the Superpowers workflow at session start.
+
+Or install manually by cloning and running the setup script:
+
+```bash
+git clone https://github.com/falaqin/superpowers-pi
+cd superpowers-pi
+./setup.sh
+```
+
+Restart Pi or run `/reload` after installation.
 
 ## The Basic Workflow
 
